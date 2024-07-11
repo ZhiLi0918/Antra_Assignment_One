@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 440px;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+}
+.name, .password {
+    display: flex;
+    justify-content: space-between;
+}
+.name input, .password input {
+    width: 43%;
+}
+input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #767474;
+    border-radius: 5px;
+}
+.agree{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+input[type="checkbox"] {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+label {
+    font-size: 11px;
+    white-space: nowrap;
+}
+p {
+    color: #767474;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 48%;
+}
+.register, .sign-in{
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+.register{
+    background-color: #067af6;
+}
+.sign-in{
+    background-color: #29a747;
+}
+.register-text{
+    background-color: #067af6; 
+    border-radius: 3px; 
+    color: white; 
+    font-size: 9px;
+}
